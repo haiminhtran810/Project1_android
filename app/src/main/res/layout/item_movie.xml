@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <data>
+        <variable
+            name="itemView"
+            type="com.example.hcm_102_0006.android_project_m.view.adapter.AdapterShowMovie.MyViewHolder"/>
+    </data>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/sizeTextHeader"
+            android:text="Nội chiến siêu anh hùng ( Phần 2)."
+            android:textStyle="bold"
+            android:inputType="textMultiLine"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/sizeTextHeader2"
+            android:text="6.5"
+            android:textColor="@android:color/holo_red_dark"
+            />
+
+
+    </LinearLayout>
+</layout>
