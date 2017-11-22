@@ -11,5 +11,6 @@
     <string name="menu_favorite">Favorite</string>
     <string name="search">Search...</string>
     <string name="btnFind">Find</string>
+    <string name="msgAllGenres">All Genres</string>
 
 </resources>

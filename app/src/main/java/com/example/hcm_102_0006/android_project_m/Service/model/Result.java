@@ -8,7 +8,7 @@ import java.util.List;
  */
 
 public class Result {
-    List<Movie> results ;
+    private List<Movie> results ;
 
     public List<Movie> getResults() {
         return results;
